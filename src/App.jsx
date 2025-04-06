@@ -13,14 +13,14 @@ function App() {
       path: '/',
       element: <><Navbar /><Home /></>,
     },
-    // {
-      // path: '/about',
-      // element: <><Navbar /><About /></>,
-    // },
-    // {
-    //   path: '/contact',
-    //   element: <><Navbar /><Contact /></>,
-    // }
+    {
+      path: '/about',
+      element: <><Navbar /><About /></>,
+    },
+    {
+      path: '/contact',
+      element: <><Navbar /><Contact /></>,
+    }
   ])
   return (
     <>
